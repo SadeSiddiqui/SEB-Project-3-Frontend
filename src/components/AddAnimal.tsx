@@ -40,7 +40,7 @@ export default function AddAnimal() {
   // console.log("this is form", formData);
 
   return (
-    <div className="section">
+    <div className="section hero is-fullheight  is-justify-content-space-around mx-6 is-centered">
       <div className="container add is-max-desktop custom-border-radius p-6">
         <form onSubmit={handleSubmit}>
           <div className="title is-size-2 pl-1 mb-5">Add Animal</div>
